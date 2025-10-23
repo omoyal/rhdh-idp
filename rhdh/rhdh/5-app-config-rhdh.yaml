@@ -65,7 +65,7 @@ data:
         - type: config
           clusters:
             - name: openshift-cluster
-              url: https://api.cluster-<GUID>.dynamic.redhatworkshops.io:6443
+              url: https://api.cluster-lqfnj.dynamic.redhatworkshops.io:6443
               authProvider: serviceAccount
               skipTLSVerify: true
               serviceAccountToken: ${K8S_SA_TOKEN}
@@ -75,4 +75,4 @@ data:
                   plural: 'routes'
     scaffolder:
       github:
-        token: ${GITHUB_TOKEN}                    
+        token: ${GITHUB_TOKEN}      
